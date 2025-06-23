@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-image: url('./img/joyce-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #fdfaff;
+  }
+
+  .container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+    border: 3px solid #e0bdf4; 
+    padding: 3px;
+    box-shadow: 0 0 8px rgba(224, 189, 244, 0.5); 
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .frase {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .links a {
+    border: 2px solid #caa6e8; /* tom que combina com o fundo */
+    border-radius: 30px;
+    padding: 0.5rem 1.2rem;
+    background-color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .links a:hover {
+    background-color: #f3e8fc;
+    color: #5e3b8b;
+    border-color: #a569d8;
+  }
+  
+  .cursor {
+    display: inline-block;
+    color: #666;
+    animation: piscar 0.7s steps(1) infinite;
+  }
+  
+  @keyframes piscar {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  #particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
+  
+  .animacao {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ilustracao {
+    border: 2px dashed #d8c0f0;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 300px;
+    background-color: #faf6ff;
+  }
+  
+  
